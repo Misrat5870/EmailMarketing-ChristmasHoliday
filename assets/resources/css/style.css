@@ -84,7 +84,8 @@ a{
 	font-size: 25px;
 	font-family: avenir-medium;
 }
-.read-more-btn{
+a.read-more-btn{
+	text-decoration: none;
 	color: #BE0F34;
 	padding: 3px 8px;
 	border-radius: 10px;
@@ -93,6 +94,11 @@ a{
 	margin-top: 20px;
 	font-size: 22px;
 	font-family: avenir-medium;
+	transition: .5s;
+}
+a.read-more-btn:hover{
+   color: #fff;
+   background: #BE0F34;
 }
 .footer-section{
     text-align: center;
