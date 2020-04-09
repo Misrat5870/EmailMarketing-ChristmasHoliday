@@ -1,0 +1,138 @@
+@font-face{
+	scr: url(../fonts/AvenirLTStd-Black.otf);
+	font-family: avenir-black;
+
+	scr: url(../fonts/AvenirLTStd-Medium.otf);
+	font-family: avenir-medium;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 750px;
+	margin: 2px auto;
+	border: 1px solid #ddd;
+	padding: 0;
+}
+.header-section{
+	background: url("../img/PM-Holiday-Image1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 500px;
+}
+.hero-section{
+	position: relative;
+	top: 25%;
+	text-align: center;
+}
+.hero-section img{
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+.hero-section h1{
+	font-size: 75px;
+	color: #BE2036;
+	width: 600px;
+	background: rgba(255, 255, 255, .8);
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 15px 0;
+	font-weight: bold;
+	text-transform: lowercase;
+	font-family: avenir-black;
+}
+.content-section{
+   padding: 30px;
+   text-align: center;
+}
+.content-section h2{
+	font-size: 30px;
+    font-family: avenir-medium;
+}
+.content-item{
+   margin-top: 20px;
+}
+.content-item img{
+	width: 100%;
+}
+.item-description{
+	background: #BE0F34;
+	padding: 20px;
+	color: #fff;
+}
+.item-description h3{
+	font-size: 30px;
+	font-family: avenir-black;
+}
+.item-description p{
+	font-size: 25px;
+	font-family: avenir-medium;
+}
+.read-more-btn{
+	color: #BE0F34;
+	padding: 3px 8px;
+	border-radius: 10px;
+	border: 3px solid #BE0F34;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 22px;
+	font-family: avenir-medium;
+}
+.footer-section{
+    text-align: center;
+    font-family: avenir-medium;
+}
+.social-icon{
+	background: #BE0F34;
+	padding: 20px;
+}
+.social-icon p{
+	color: #fff;
+	font-size: 20px;
+}
+.social-icon ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+.social-icon ul li a:link{
+   color: #BE0F34;
+   font-size: 15px;
+}
+.social-icon ul li a:link i::before{
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background: #fff;
+	padding: 10px;
+}
+.footer-footer{
+    padding: 20px;
+}
+.footer-footer p{
+	font-size: 13px;
+	margin: 0;
+}
+.footer-footer a{
+	text-decoration: underline;
+	color: #000;
+	font-size: 15px;
+	margin-top: 20px;
+	display: inline-block;
+}
